@@ -6,7 +6,7 @@ const main = document.querySelectorAll('main > div');
     [...main].find((elem) => {
       elem.classList.remove('activ');
       main[index].classList.add('activ');
-      return false
+      return false;
     });
   });
   return true;
