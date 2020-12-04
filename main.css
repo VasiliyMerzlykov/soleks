@@ -1,0 +1,97 @@
+.prev{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+.linc_nav{
+    width: 25%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.linc_nav:hover{
+    background-color:white;
+}
+
+.logo {
+    color: blue;
+    padding-left: auto;
+    padding-right: auto;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+.head_service{
+    text-align: center;
+}
+
+.services_block {
+    display: flex;
+    height: 200px;
+    width: 1000px;
+    margin-top: 20px;
+    
+}
+
+.heder_nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+.text_services_block{
+    background-color: darkgray;
+    width: 800px;
+}
+
+.kran {
+    width: 300px;
+}
+
+
+.head {
+    background-color: cornflowerblue;
+}
+
+.img_services_block{
+    min-width: 200px;
+    height: 200px;
+    background-color: crimson;
+
+}
+
+.service {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.about_us{
+    display: none;
+
+}
+
+.clients{
+    display: none;
+
+}
+
+.contacts{
+    display: none;
+
+}
+
+.activ{
+    display: block;
+}
